@@ -7,7 +7,7 @@ import java.util.Properties;
 public class MainClass {
 
     public static final Logger log = Logger.getLogger(MainClass.class);
-    public static String pathToProperties = "configuration.properties";
+    public static String pathToProperties = "./configuration.properties";
 
     public static void main(String[] args) throws Exception {
         Properties properties = new PropertiesLoader().loadProperties(pathToProperties);
